@@ -109,7 +109,7 @@ function App() {
         We can put a subtitle here to give more info to the users, they can
         select which login provider to use from the buttons below
       </h2>
-      {!redirectURI ? (
+      {redirectURI ? (
         <Grid gap={16}>
           {error && <Banner variant='error' title={error} />}
           <Button
