@@ -1,0 +1,9 @@
+{
+  "short_name": "Station",
+  "name": "Station Authentication",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#17181C",
+  "background_color": "#065BEE"
+}
